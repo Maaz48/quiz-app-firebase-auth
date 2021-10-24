@@ -1,0 +1,89 @@
+.quizcard {
+  min-height: 400px;
+  min-width: 600px;
+  /* background-color: rgb(0, 0, 0) !important; */
+  border-radius: 20px;
+  border: 2px solid #01ffbb;
+}
+
+.quizcard {
+  background-color: #25ca9e;
+}
+
+@media (max-width: 608px) {
+  .quizcard {
+    min-width: 300px;
+  }
+
+  .options {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
+    /* padding: 10px 10px 10px 10px; */
+  }
+}
+
+.buttonQuiz {
+  margin: 20px 40px 20px 40px;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  flex-direction: column;
+  padding: 10px 40px 10px 40px;
+}
+
+.options Button {
+  margin: 10px 50px 10px 50px;
+}
+
+.qustion {
+  background-color: #198754;
+  border-radius: 10px;
+  margin: 20px;
+  font-size: 20px;
+  color: white;
+  padding: 20px;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: white;
+}
+
+.result {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.resultMainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px !important;
+}
+
+.result p {
+  font-size: 60px;
+}
+
+@media (max-width: 560px) {
+  .result p {
+    font-size: 20px;
+  }
+  .result h1{
+      font-size: 30px;
+  }
+  .quizcard{
+      width: 100%;
+      height: 100%;
+  }
+}
